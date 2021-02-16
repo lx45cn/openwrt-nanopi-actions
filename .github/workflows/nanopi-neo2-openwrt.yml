@@ -3,8 +3,8 @@ name: Build neo2
 on: 
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron: 0 8 * * 5
+#  schedule:
+#    - cron: 0 8 * * 5
 
 env:
   DEVICENAME: NEO2
